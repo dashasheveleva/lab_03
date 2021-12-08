@@ -11,8 +11,8 @@ template <typename T>
 class SharedPtr {
 
 private:
-    T* pointer; //указатель
-    std::atomic_uint* counter; //счетчик указателей
+    T* p; //указатель
+    std::atomic_uint* c; //счетчик указателей
 
 public:
     SharedPtr();
@@ -33,41 +33,41 @@ public:
     void reset(T* ptr);
     void swap(SharedPtr& r);
     // возвращает количество объектов SharedPtr, которые ссылаются на тот же управляемый объект
-    auto use_count() const -> size_t;
+    [[nodiscard]] auto use_count() const -> size_t;
 };
 
 template<typename T>
 SharedPtr<T>::SharedPtr() {
-    pointer= nullptr;
-    counter= nullptr;
+    p= nullptr;
+    c= nullptr;
 }
 
 template<typename T>
 SharedPtr<T>::SharedPtr(T *ptr) {
-    pointer= ptr;
-    counter= new std::atomic_uint{1};
+    p= ptr;
+    c= new std::atomic_uint{1};
 }
 
 template<typename T>
 SharedPtr<T>::SharedPtr(const SharedPtr &r) {
-    counter= nullptr;
+    c= nullptr;
     *this=r;
 }
 
 template<typename T>
 SharedPtr<T>::SharedPtr(SharedPtr &&r) {
-    counter= nullptr;
+    c= nullptr;
     *this=std::move(r);
 }
 
 template<typename T>
 SharedPtr<T>::~SharedPtr() {
-    if (counter == nullptr)
+    if (c == nullptr)
         return;
-    (counter)--;
-    if (counter == 0) {
-        delete pointer;
-        delete counter;
+    (c)--;
+    if (c == 0) {
+        delete p;
+        delete c;
     }
 }
 
@@ -78,9 +78,9 @@ auto SharedPtr<T>::operator=(const SharedPtr &r) -> SharedPtr & {
 
     this->~SharedPtr();
 
-    pointer=r.pointer;
-    counter=r.counter;
-    (*counter)++;
+    p=r.p;
+    c=r.c;
+    (*c)++;
 
     return *this;
 }
@@ -92,32 +92,32 @@ auto SharedPtr<T>::operator=(SharedPtr &&r) -> SharedPtr & {
 
     this->~SharedPtr();
 
-    pointer=r.pointer;
-    counter=r.counter;
-    r.counter= nullptr;
-    r.pointer= nullptr;
+    p=r.p;
+    c=r.c;
+    r.c= nullptr;
+    r.p= nullptr;
 
     return *this;
 }
 
 template<typename T>
 SharedPtr<T>::operator bool() const {
-    return pointer != nullptr;
+    return p != nullptr;
 }
 
 template<typename T>
 auto SharedPtr<T>::operator*() const -> T & {
-    return *pointer;
+    return *p;
 }
 
 template<typename T>
 auto SharedPtr<T>::operator->() const -> T * {
-    return pointer;
+    return p;
 }
 
 template<typename T>
 auto SharedPtr<T>::get() -> T * {
-    return pointer;
+    return p;
 }
 
 template<typename T>
@@ -132,14 +132,14 @@ void SharedPtr<T>::reset(T *ptr) {
 
 template<typename T>
 void SharedPtr<T>::swap(SharedPtr &r) {
-    std::swap(pointer, r.pointer);
-    std::swap(counter, r.counter);
+    std::swap(p, r.p);
+    std::swap(c, r.c);
 }
 
 template<typename T>
 auto SharedPtr<T>::use_count() const -> size_t {
-    if(counter!= nullptr)
-        return *counter;
+    if(c!= nullptr)
+        return *c;
     else
         return 0;
 }

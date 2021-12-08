@@ -68,7 +68,7 @@ TEST(SharedPtr, MoveAssignment) {
     q= std::move(p);
     ASSERT_EQ(p.operator bool(), false);
     ASSERT_EQ(r.use_count(), 2);
-    ASSERT_EQ(z.use_count(), 1);
+    ASSERT_EQ(z.use_count(), 2);
 
     SharedPtr <std::string> *ptr_;
     ptr_ = &q;
