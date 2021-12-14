@@ -34,7 +34,7 @@ set(CPACK_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/
 set(CPACK_INSTALLED_DIRECTORIES "/home/daria/CLionProjects/lab_03;/")
 set(CPACK_INSTALL_CMAKE_PROJECTS "")
 set(CPACK_INSTALL_PREFIX "/usr/local")
-set(CPACK_MODULE_PATH "/home/daria/.hunter/_Base/Download/Hunter/0.23.314/95c47c9/Unpacked/cmake/modules;/home/daria/.hunter/_Base/Download/Hunter/0.23.314/95c47c9/Unpacked/cmake/find")
+set(CPACK_MODULE_PATH "/home/daria/.hunter/_Base/Download/Hunter/0.23.271/2d66860/Unpacked/cmake/modules;/home/daria/.hunter/_Base/Download/Hunter/0.23.271/2d66860/Unpacked/cmake/find")
 set(CPACK_NSIS_DISPLAY_NAME "template 0.1.0")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
 set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")

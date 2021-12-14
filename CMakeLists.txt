@@ -16,8 +16,8 @@ set(
 include("cmake/HunterGate.cmake")
 
 HunterGate(
-  URL "https://github.com/cpp-pm/hunter/archive/v0.23.314.tar.gz"
-  SHA1 "95c47c92f68edb091b5d6d18924baabe02a6962a"
+        URL "https://github.com/cpp-pm/hunter/archive/v0.23.271.tar.gz"
+        SHA1 "2d6686024529b471e0cc3a4fc07d4d64b62a53ee"
 )
 
 project(lab_03)
@@ -41,7 +41,6 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 
 if(BUILD_TESTS)
   add_executable(tests
-    # TODO: enum your files and delete this comment
     ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
   )
   target_link_libraries(tests ${PROJECT_NAME} GTest::gtest_main)

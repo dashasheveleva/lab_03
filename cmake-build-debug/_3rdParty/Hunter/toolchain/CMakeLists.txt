@@ -142,7 +142,6 @@ foreach(x ${list_of_strings})
   endif()
 endforeach()
 
-list(SORT macros_list)
 list(REMOVE_DUPLICATES macros_list)
 string(REPLACE ";" "\n" macros_string "${macros_list}")
 

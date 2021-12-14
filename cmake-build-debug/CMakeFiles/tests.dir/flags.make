@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/daria/CLionProjects/lab_03/include -isystem /home/daria/.hunter/_Base/95c47c9/252be92/c8a7791/Install/include
+CXX_INCLUDES = -I/home/daria/CLionProjects/lab_03/include -isystem /home/daria/.hunter/_Base/2d66860/252be92/6b7ba69/Install/include
 
 CXX_FLAGS =  -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor -g -std=gnu++17
 
