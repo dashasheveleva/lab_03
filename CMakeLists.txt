@@ -19,8 +19,7 @@ HunterGate(
         URL "https://github.com/cpp-pm/hunter/archive/v0.23.271.tar.gz"
         SHA1 "2d6686024529b471e0cc3a4fc07d4d64b62a53ee"
 )
-
-
+set(lab_03)
 project(template VERSION 0.1.0)
 string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
 string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")
