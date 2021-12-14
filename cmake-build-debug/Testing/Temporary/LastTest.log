@@ -1,3 +1,49 @@
-Start testing: Dec 15 00:47 MSK
+Start testing: Dec 15 01:13 MSK
 ----------------------------------------------------------
-End testing: Dec 15 00:47 MSK
+1/1 Testing: unit_tests
+1/1 Test: unit_tests
+Command: "/home/daria/CLionProjects/lab_03/cmake-build-debug/tests"
+Directory: /home/daria/CLionProjects/lab_03/cmake-build-debug
+"unit_tests" start time: Dec 15 01:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/daria/.hunter/_Base/95c47c9/252be92/c8a7791/Build/GTest/Source/googletest/src/gtest_main.cc
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from SharedPtr
+[ RUN      ] SharedPtr.EmptySharedPtr
+[       OK ] SharedPtr.EmptySharedPtr (0 ms)
+[ RUN      ] SharedPtr.InitializationSharedPtr
+[       OK ] SharedPtr.InitializationSharedPtr (0 ms)
+[ RUN      ] SharedPtr.CopyConstructor
+[       OK ] SharedPtr.CopyConstructor (0 ms)
+[ RUN      ] SharedPtr.MoveConstructor
+[       OK ] SharedPtr.MoveConstructor (0 ms)
+[ RUN      ] SharedPtr.CopyAssignment
+[       OK ] SharedPtr.CopyAssignment (0 ms)
+[ RUN      ] SharedPtr.MoveAssignment
+[       OK ] SharedPtr.MoveAssignment (0 ms)
+[ RUN      ] SharedPtr.Reset
+[       OK ] SharedPtr.Reset (0 ms)
+[ RUN      ] SharedPtr.ResetPointer
+[       OK ] SharedPtr.ResetPointer (0 ms)
+[ RUN      ] SharedPtr.Swap
+[       OK ] SharedPtr.Swap (0 ms)
+[ RUN      ] SharedPtr.IsMoveConstructible
+[       OK ] SharedPtr.IsMoveConstructible (0 ms)
+[ RUN      ] SharedPtr.IsMoveAssignable
+[       OK ] SharedPtr.IsMoveAssignable (0 ms)
+[----------] 11 tests from SharedPtr (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Dec 15 01:13 MSK
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 15 01:13 MSK

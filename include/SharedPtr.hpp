@@ -64,8 +64,8 @@ template<typename T>
 SharedPtr<T>::~SharedPtr() {
     if (c == nullptr)
         return;
-    (c)--;
-    if (c == 0) {
+    (*c)--;
+    if (*c == 0) {
         delete p;
         delete c;
     }
