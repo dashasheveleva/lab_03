@@ -9,14 +9,13 @@
 
 template <typename T>
 class SharedPtr {
-
 private:
     T* p; //указатель
     std::atomic_uint* c; //счетчик указателей
 
 public:
     SharedPtr();
-    SharedPtr(T* ptr);
+    explicit SharedPtr(T* ptr);
     SharedPtr(const SharedPtr& r);
     SharedPtr(SharedPtr&& r);
     ~SharedPtr();
@@ -32,7 +31,8 @@ public:
     void reset();
     void reset(T* ptr);
     void swap(SharedPtr& r);
-    // возвращает количество объектов SharedPtr, которые ссылаются на тот же управляемый объект
+    // возвращает количество объектов SharedPtr,
+    // которые ссылаются на тот же управляемый объект
     [[nodiscard]] auto use_count() const -> size_t;
 };
 
