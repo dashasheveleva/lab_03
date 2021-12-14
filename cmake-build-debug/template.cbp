@@ -5,7 +5,7 @@
 		<Option title="template"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\.hunter\;CMake Files\..\..\.hunter\_Base\;CMake Files\..\..\.hunter\_Base\Download\;CMake Files\..\..\.hunter\_Base\Download\Hunter\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\modules\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\configs\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\projects\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\projects\GTest\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\schemes\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\scripts\;CMake Files\..\..\.hunter\_Base\2d66860\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Build\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Build\GTest\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\lib\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\lib\cmake\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\lib\cmake\GTest\;CMake Files\..\..\.hunter\_Base\Cache\;CMake Files\..\..\.hunter\_Base\Cache\meta\;CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\;CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\GTest\;CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\GTest\1.10.0\;CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\GTest\1.10.0\9c89be7\;CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\GTest\1.10.0\9c89be7\a37fba7\;CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\GTest\1.10.0\9c89be7\a37fba7\4830b34\;CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\GTest\1.10.0\9c89be7\a37fba7\4830b34\e5fa44f\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_3rdParty\;CMake Files\cmake-build-debug\_3rdParty\Hunter\;CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\.hunter\;CMake Files\..\..\.hunter\_Base\;CMake Files\..\..\.hunter\_Base\Download\;CMake Files\..\..\.hunter\_Base\Download\Hunter\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\modules\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\configs\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\projects\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\projects\GTest\;CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\scripts\;CMake Files\..\..\.hunter\_Base\2d66860\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\lib\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\lib\cmake\;CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\lib\cmake\GTest\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_3rdParty\;CMake Files\cmake-build-debug\_3rdParty\Hunter\;CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\;CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/daria/CLionProjects/lab_03/cmake-build-debug"/>
@@ -460,23 +460,11 @@
 		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/Download/Hunter/0.23.271/2d66860/Unpacked/cmake/projects/GTest/hunter.cmake">
 			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\projects\GTest\"/>
 		</Unit>
-		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/Download/Hunter/0.23.271/2d66860/Unpacked/cmake/schemes/url_sha1_cmake.cmake.in">
-			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\cmake\schemes\"/>
-		</Unit>
 		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/Download/Hunter/0.23.271/2d66860/Unpacked/scripts/create-toolchain-info.cmake">
 			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\Download\Hunter\0.23.271\2d66860\Unpacked\scripts\"/>
 		</Unit>
 		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/2d66860/252be92/6b7ba69/config.cmake">
 			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\"/>
-		</Unit>
-		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/2d66860/252be92/6b7ba69/Build/GTest/args.cmake.NOLF">
-			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Build\GTest\"/>
-		</Unit>
-		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/2d66860/252be92/6b7ba69/Build/GTest/internal_deps.id.NOLF">
-			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Build\GTest\"/>
-		</Unit>
-		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/2d66860/252be92/6b7ba69/Build/GTest/types.info.NOLF">
-			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Build\GTest\"/>
 		</Unit>
 		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/2d66860/252be92/6b7ba69/Install/lib/cmake/GTest/GTestConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\lib\cmake\GTest\"/>
@@ -493,20 +481,8 @@
 		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/2d66860/252be92/6b7ba69/Install/lib/cmake/GTest/GTestTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\2d66860\252be92\6b7ba69\Install\lib\cmake\GTest\"/>
 		</Unit>
-		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/Cache/meta/252be92/GTest/1.10.0/9c89be7/a37fba7/4830b34/e5fa44f/basic-deps.info.NOLF">
-			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\GTest\1.10.0\9c89be7\a37fba7\4830b34\e5fa44f\"/>
-		</Unit>
-		<Unit filename="/home/daria/CLionProjects/lab_03/../../.hunter/_Base/Cache/meta/252be92/GTest/1.10.0/9c89be7/a37fba7/4830b34/e5fa44f/deps.info-TEMP.NOLF">
-			<Option virtualFolder="CMake Files\..\..\.hunter\_Base\Cache\meta\252be92\GTest\1.10.0\9c89be7\a37fba7\4830b34\e5fa44f\"/>
-		</Unit>
-		<Unit filename="/home/daria/CLionProjects/lab_03/cmake-build-debug/_3rdParty/Hunter/toolchain/toolchain.info">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\"/>
-		</Unit>
 		<Unit filename="/home/daria/CLionProjects/lab_03/cmake-build-debug/_3rdParty/Hunter/toolchain/toolchain.info.NOLF">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_3rdParty\Hunter\toolchain\"/>
-		</Unit>
-		<Unit filename="/home/daria/CLionProjects/lab_03/cmake-build-debug/_3rdParty/Hunter/config-id/config.cmake">
-			<Option virtualFolder="CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\"/>
 		</Unit>
 		<Unit filename="/home/daria/CLionProjects/lab_03/cmake-build-debug/_3rdParty/Hunter/config-id/config.cmake.NOLF">
 			<Option virtualFolder="CMake Files\cmake-build-debug\_3rdParty\Hunter\config-id\"/>

@@ -20,7 +20,7 @@ HunterGate(
         SHA1 "2d6686024529b471e0cc3a4fc07d4d64b62a53ee"
 )
 
-project(lab_03)
+
 project(template VERSION 0.1.0)
 string(APPEND CMAKE_CXX_FLAGS " -pedantic -Werror -Wall -Wextra")
 string(APPEND CMAKE_CXX_FLAGS " -Wno-unused-command-line-argument")
@@ -55,6 +55,7 @@ if(BUILD_COVERAGE)
   string(APPEND CMAKE_CXX_FLAGS " --coverage")
   add_coverage(${PROJECT_NAME})
   add_coverage(tests)
+  list(APPEND LCOV_REMOVE_PATTERNS "'${PROJECT_SOURCE_DIR}/tests/*'")
   coverage_evaluate()
 endif()
 
