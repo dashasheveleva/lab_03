@@ -296,7 +296,7 @@ CPACK_SOURCE_TZ:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=OFF
 
 //The directory containing a CMake configuration file for GTest.
-GTest_DIR:PATH=/home/daria/.hunter/_Base/2d66860/252be92/6b7ba69/Install/lib/cmake/GTest
+GTest_DIR:PATH=/home/daria/.hunter/_Base/95c47c9/252be92/c8a7791/Install/lib/cmake/GTest
 
 //Default cache server
 HUNTER_CACHE_SERVERS:STRING=https://github.com/bmstu-iu8-cpp-sem-3/hunter-cache
@@ -549,11 +549,11 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 HUNTER_CACHED_BUILD_SHARED_LIBS:INTERNAL=
 HUNTER_CACHED_CONFIGURATION_TYPES:INTERNAL=Release;Debug
 HUNTER_CACHED_ROOT:INTERNAL=/home/daria/.hunter
-HUNTER_CONFIG_SHA1:INTERNAL=6b7ba69df29907a6b203a5b399049ebb3d6f1314
-HUNTER_SHA1:INTERNAL=2d6686024529b471e0cc3a4fc07d4d64b62a53ee
+HUNTER_CONFIG_SHA1:INTERNAL=c8a7791b13da9a30038aba0404eef73cb4342593
+HUNTER_SHA1:INTERNAL=95c47c92f68edb091b5d6d18924baabe02a6962a
 HUNTER_TOOLCHAIN_SHA1:INTERNAL=252be9224003fd5f79cdb3c0092ddf369c03d04b
-HUNTER_URL:INTERNAL=https://github.com/cpp-pm/hunter/archive/v0.23.271.tar.gz
-HUNTER_VERSION:INTERNAL=0.23.271
+HUNTER_URL:INTERNAL=https://github.com/cpp-pm/hunter/archive/v0.23.314.tar.gz
+HUNTER_VERSION:INTERNAL=0.23.314
 //ADVANCED property for variable: ProcessorCount_cmd_nproc
 ProcessorCount_cmd_nproc-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
