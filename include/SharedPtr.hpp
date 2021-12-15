@@ -90,7 +90,7 @@ auto SharedPtr<T>::operator=(SharedPtr &&r) -> SharedPtr & {
     if (this == &r) {
         this->~SharedPtr();
         p = std::move(r.p);
-        c = std::move( r.c);
+        c = std::move(r.c);
     }
 return *this;
 }
