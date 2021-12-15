@@ -6,15 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../include/SharedPtr.hpp
-atomic
--
-iostream
--
-utility
--
-
-/home/daria/CLionProjects/lab_03/sources/SharedPtr.cpp
-SharedPtr.hpp
--
-

@@ -8,9 +8,9 @@ option(BUILD_DOCS "Build documentation" OFF)
 option(BUILD_COVERAGE "Build code coverage" OFF)
 
 set(
-  HUNTER_CACHE_SERVERS
-  "https://github.com/bmstu-iu8-cpp-sem-3/hunter-cache"
-  CACHE STRING "Default cache server"
+        HUNTER_CACHE_SERVERS
+        "https://github.com/bmstu-iu8-cpp-sem-3/hunter-cache"
+        CACHE STRING "Default cache server"
 )
 
 include("cmake/HunterGate.cmake")
@@ -29,19 +29,19 @@ hunter_add_package(GTest)
 find_package(GTest CONFIG REQUIRED)
 
 add_library(${PROJECT_NAME} STATIC
-  ${CMAKE_CURRENT_SOURCE_DIR}/sources/SharedPtr.cpp
-)
+        ${CMAKE_CURRENT_SOURCE_DIR}/sources/SharedPtr.cpp
+        )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
-  "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
-  "$<INSTALL_INTERFACE:include>"
-)
+        "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>"
+        "$<INSTALL_INTERFACE:include>"
+        )
 
 
 if(BUILD_TESTS)
   add_executable(tests
-    ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
-  )
+          ${CMAKE_CURRENT_SOURCE_DIR}/tests/test.cpp
+          )
   target_link_libraries(tests ${PROJECT_NAME} GTest::gtest_main)
   target_link_libraries(tests ${PROJECT_NAME})
   enable_testing()
